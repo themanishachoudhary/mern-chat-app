@@ -21,6 +21,7 @@ const GenderCheckbox = ({ onCheckboxChange, selectedGender }) => {
 						checked={selectedGender === "female"}
 						onChange={() => onCheckboxChange("female")}
 					/>
+					"]
 				</label>
 			</div>
 		</div>
